@@ -240,22 +240,35 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-#header {
+body {
 
-  position: static;
+  background-color: green;
+  font-size: 12px;
+}
 
+.wrapper {
+  width: 540px;
 }
 
 @media screen and (max-width: 768px) {
 
-#header {
+body {
 
-  postion: static;
+  background-color: purple;
+  font-size: 27px;
 }
 
-@media screen and (max-width: 640px) {
-  
-#header {
+.wrapper {
+  width: 450px;
+}
 
-  postion: static; 
+@media screen and (max-width: 680px){
+
+body { 
+background-color: pink;
+font-size: 8px;
+ }
+
+.wrapper{
+  width: 350px;
 }
